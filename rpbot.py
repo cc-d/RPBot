@@ -29,6 +29,7 @@ def main():
 		logger.info('Logged into reddit.')
 	except Exception as e:
 		logger.error(str(e))
+		sys.exit()
 
 	while True:
 		try:
@@ -94,13 +95,13 @@ def main():
 		
 				except Exception as e:
 					logger.error(str(e))
-					time.sleep(2)
+					time.sleep(20)
 
 			time.sleep(5)
 
 		except Exception as e:
 			logger.error(str(e))
-			time.sleep(10)
+			time.sleep(20)
 
 if __name__ == '__main__':
 	main()
