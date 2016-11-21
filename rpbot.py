@@ -82,7 +82,7 @@ def main():
 							logger.info('Successfully submitted submission ' + str(local_submission.permalink))
 			
 							print 'It is to ok to kill me now.'
-							time.sleep(2)
+							time.sleep(5)
 	
 				except praw.errors.AlreadySubmitted as e:
 						logger.error(str(e) + ' (already submitted)')
