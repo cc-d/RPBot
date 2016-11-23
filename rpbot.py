@@ -8,7 +8,7 @@ import re
 
 
 def main():
-	# edgy and cool way to avoid encoding errors (don't use)
+    # edgy and cool way to avoid encoding errors (don't use)
     reload(sys)
     sys.setdefaultencoding("utf8")
 
@@ -26,7 +26,7 @@ def main():
         subreddits = '+'.join(s.read().splitlines())
 
     with open('submitted.txt', 'r+') as s:
-		# we only need the most recent submission IDs
+        # we only need the most recent submission IDs
         submitted = s.read().splitlines()[-100:]
 
     try:
