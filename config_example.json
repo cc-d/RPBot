@@ -6,7 +6,7 @@
 		"password": "password"
 	},
 	"blacklist": {
-		"words": ["porn", "porno", "pornvideos", "sex", "fuck", "shit", "whore", "slut", "camgirl", "sexy"],
+		"words": ["porn", "porno", "pornvideos", "sex", "fuck", "fucked", "babes", "shit", "whore", "slut", "camgirl", "sexy"],
 		"urls": ["pictions.com"]
 	},
 	"regex": [
